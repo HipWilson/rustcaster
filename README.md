@@ -36,7 +36,7 @@ sudo apt-get install libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev
 
 **Objetivo:** llegar a la celda de salida esto sin atravesar las paredes lo bonito es que en el camino puedes dispararle al orbe brillante que flota y pulsa, cada acierto suma un punto y el orbe reaparece en otro lugar del mapa.
 
-## 🧩 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 rustcaster/
@@ -51,7 +51,7 @@ rustcaster/
     └── main.rs      <- todo el juego
 ```
 
-## 🛠️ Detalles técnicos
+## Detalles técnicos
 
 - **Raycasting:** algoritmo DDA por columnas con corrección de "fish-eye" mediante distancia perpendicular.
 - **Colisión de paredes:** el jugador se mueve por ejes y se prueban las 4 esquinas de su "hitbox" circular contra el mapa antes de aplicar el movimiento, así nunca atraviesa paredes ni puede quedar fuera del mapa.
