@@ -1,6 +1,6 @@
 # RUSTCASTER 
 
-Ray caster hecho en **Rust** con [macroquad](https://github.com/not-fl3/macroquad), como proyecto 1 de gráficas por computadora.
+Ray caster hecho en **Rust** con macroquad, como proyecto 1 de gráficas por computadora.
 
 Renderiza un nivel completo y jugable en primera persona usando el algoritmo clásico de **DDA** Uncluye colisiones, minimapa, sonido, animación de sprite, disparos, pantalla de bienvenida con selección de nivel, y pantalla de éxito.
 
@@ -75,3 +75,5 @@ rustcaster/
 - Pantalla de bienvenida con selección entre múltiples niveles.
 - Pantalla de éxito al completar el nivel.
 
+## Video del funcionamiento 
+[Video](https://youtu.be/4Goorv81OAg)
